@@ -1,52 +1,52 @@
 [
   {
-    "title": "Le contrat d'apprentissage dématérialisé pour les employeurs publics",
-    "path": "content/_startups/dematapprentissage.md",
-    "phase": "success"
-  },
-  {
-    "title": "Prévention des ruptures de contrat d'apprentissage et de remédiation",
-    "path": "content/_startups/prevention_ruptures_apprentissage.md",
-    "phase": "investigation"
-  },
-  {
-    "title": "Le référentiel UAI-SIRET",
-    "path": "content/_startups/uai_siret.md",
-    "phase": "success"
-  },
-  {
     "title": "Le transfert aux CFA des vœux en apprentissage exprimés sur Affelnet",
-    "path": "content/_startups/voeux-apprentissage.md",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/voeux-apprentissage.md",
+    "phase": "success"
+  },
+  {
+    "title": "Le contrat d'apprentissage dématérialisé pour les employeurs publics",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/dematapprentissage.md",
     "phase": "success"
   },
   {
     "title": "Catalogue des formations en apprentissage",
-    "path": "content/_startups/catalogue-apprentissage.md",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/catalogue-apprentissage.md",
     "phase": "success"
   },
   {
     "title": "La bonne alternance",
-    "path": "content/_startups/la-bonne-alternance.md",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/la-bonne-alternance.md",
     "phase": "acceleration"
   },
   {
+    "title": "API Apprentissage",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/api.apprentissage.md",
+    "phase": "construction"
+  },
+  {
     "title": "Besoins OPCO",
-    "path": "content/_startups/besoins.opco.md",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/besoins.opco.md",
     "phase": "investigation"
   },
   {
-    "title": "Tableau de bord Apprentissage",
-    "path": "content/_startups/tdb-apprentissage.md",
-    "phase": "construction"
-  },
-  {
     "title": "Boîte aux lettres",
-    "path": "content/_startups/boite.aux.lettres.md",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/boite.aux.lettres.md",
     "phase": "construction"
   },
   {
-    "title": "API Apprentissage",
-    "path": "content/_startups/api.apprentissage.md",
+    "title": "Prévention des ruptures de contrat d'apprentissage et de remédiation",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/prevention_ruptures_apprentissage.md",
+    "phase": "investigation"
+  },
+  {
+    "title": "Le référentiel UAI-SIRET",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/uai_siret.md",
+    "phase": "success"
+  },
+  {
+    "title": "Tableau de bord Apprentissage",
+    "path": "https://raw.githubusercontent.com/betagouv/beta.gouv.fr/master/content/_startups/tdb-apprentissage.md",
     "phase": "construction"
   }
 ]
