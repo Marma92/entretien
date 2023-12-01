@@ -50,7 +50,7 @@ export default function DataTable() {
         pageSizeOptions={[5, 10]}
       />
       {selectedRow && (
-        <MarkdownViewer url={selectedRow.path} />
+        <MarkdownViewer url={selectedRow.path} phase={selectedRow.phase}/>
       )}
     </div>
   );

@@ -4,9 +4,10 @@ import fm from 'front-matter';
 
 interface MarkdownViewerProps {
   url: string;
+  phase: string;
 }
 
-const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ url }) => {
+const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ url, phase }) => {
   const [markdownContent, setMarkdownContent] = useState<string>('');
   const [metadata, setMetadata] = useState<any>({});
 
@@ -33,6 +34,7 @@ const MarkdownViewer: React.FC<MarkdownViewerProps> = ({ url }) => {
     <div>
       <h1>{metadata.title}</h1>
       <h2>{metadata.mission}</h2>
+      <p>{phase}</p>
       {/* add here all the properties from the metadatas you want */}
       <ReactMarkdown>{markdownContent}</ReactMarkdown>
     </div>

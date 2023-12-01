@@ -1,6 +1,6 @@
-# Template Entretien
+# Entretien
 
-This is a mono-repo template containing two projects: `api` and `app`.
+This is a mono-repo containing two projects: `api` and `app`.
 
 ## Description
 
@@ -9,14 +9,19 @@ The `api` project is a server built with Express and TypeScript, while the `app`
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/mission-apprentissage/template-entretien.git
    ```
+
 2. Navigate to the project directory:
+
    ```bash
    cd your-repo
    ```
+
 3. Install dependencies for both projects:
+
    ```bash
    cd api && npm install
    cd ../app && npm install
@@ -24,4 +29,8 @@ The `api` project is a server built with Express and TypeScript, while the `app`
 
 ## Usage
 
-See in respective README.md
+   ```bash
+    npm start
+   ```
+
+for both
