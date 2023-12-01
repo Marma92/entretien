@@ -4,7 +4,12 @@ import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import { Row } from '../interfaces/Row';
 
 const columns: GridColDef[] = [
-  { field: 'title', headerName: 'Name', width: 500 },
+  { field: 'title', headerName: 'Name', width: 500,
+  renderCell: (params) => (
+    <a href={params.row.path} target="_blank" rel="noopener noreferrer">
+      {params.value}
+    </a>
+  ), },
   { field: 'phase', headerName: 'Status', width: 150 },
 ];
 
