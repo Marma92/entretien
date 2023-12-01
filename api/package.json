@@ -3,16 +3,23 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "scripts": {
-    "start": "tsup-node --watch --onSuccess \"node dist/index.js\" src/index.ts",
+    "start": "npm-run-all -p watch-server watch-updateList",
+    "watch-server": "tsup-node --watch --onSuccess 'node dist/index.js' src/index.ts",
+    "watch-updateList": "tsup-node --watch --onSuccess 'node dist/updateList.js' src/scripts/updateList.ts",
     "build": "tsup-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.6.2",
+    "express": "^4.18.2",
+    "npm-run-all": "^4.1.5"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^20.9.4",
+    "@types/node-cron": "^3.0.11",
+    "gray-matter": "^4.0.3",
+    "node-cron": "^3.0.3",
     "tsup": "^8.0.1",
     "typescript": "^5.3.2"
   }
